@@ -9,8 +9,8 @@ elif media < 5:
 else:
     print('O aluno esta de\033[1:33m RECUPERACAO\033[m')
 
-nota3 = float(input('Digite a terceira nota: ')
-nota4 = float(input('Digite a quarta nota: ')
+nota3 = float(input('Digite a terceira nota: '))
+nota4 = float(input('Digite a quarta nota: '))
 media2= (nota3 + nota4 ) / 2 
 
 if media2 >= 7:
